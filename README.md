@@ -1,11 +1,11 @@
-# PizzaHub (Client)
+﻿# PizzaHub (Client)
 
 **PizzaHub is a pizza ordering & delivery platform.** Customers discover local pizza shops, browse menus and place orders. Restaurants (vendors) publish menu items and manage incoming orders, and can upgrade to Premium. Admins review menu items, manage users and monitor transactions.
 
-- **Live site:** `<ADD LIVE URL>`
-- **Client repo:** `<ADD CLIENT REPO URL>`
-- **Server repo:** `<ADD SERVER REPO URL>`
-- **Admin login for reviewers:** `<ADD ADMIN EMAIL>` / `<ADD ADMIN PASSWORD>`
+- **Live site:** `https://pizzahub-client-liart.vercel.app`
+- **Client repo:** `https://github.com/Maksud181351/pizzahub-client`
+- **Server repo:** `https://github.com/Maksud181351/pizzahub-server`
+- **Admin login for reviewers:** `admin@pizzahub.com` / `Admin123`
 - **Stripe test card:** `4242 4242 4242 4242`, any future expiry, any CVC, any ZIP
 
 ## Important features
@@ -106,3 +106,4 @@ Warm tomato/oven/cream palette, Bricolage Grotesque + DM Sans, one heading scale
 
 ## Deploying (Vercel)
 Set all env vars above in the project settings, set `BETTER_AUTH_URL`/`NEXT_PUBLIC_APP_URL` to the production URL, add the production redirect URI in Google Cloud Console and allow Vercel's IPs (or `0.0.0.0/0`) in MongoDB Atlas.
+
